@@ -82,7 +82,7 @@
           <h1 class="title is-1 publication-title">LocalDyGS: Multi-view Global Dynamic Scene Modeling via  Adaptive Local Implicit Feature Decoupling.</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://wujh2001.github.io/">Jiahao Wu</a><sup>1</sup>,</span> 
+              <a>Jiahao Wu</a><sup>1</sup>,</span> 
             <span class="author-block">
               <a href="https://prstrive.github.io/">Rui Peng</a><sup>1,2</sup>,</span>
             <span class="author-block">
@@ -235,7 +235,7 @@ As a result, we propose a novel dynamic scene reconstruction framework to model 
       </div>
     </div>
 
-
+    
   </div>
 </div>
 
@@ -246,19 +246,51 @@ As a result, we propose a novel dynamic scene reconstruction framework to model 
     <p  class="mb-5">
       Using <i>LocalDyGS</i> you can create fun visual effects (fix viewpoint and free viewpoints).
     </p>
-
-    <div class="columns is-mobile is-centered">
-      <div class="column is-half">
-        <video autoplay controls muted loop playsinline style="width: 100%;">
-          <source src="static/ourvideos/1_Flame_steak(Ours).mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="column is-half">
-        <video autoplay controls muted loop playsinline style="width: 100%;">
-          <source src="static/ourvideos/2_Sear_steak(Ours).mp4" type="video/mp4">
-        </video>
-      </div>
+<div class="columns is-centered is-variable is-4">
+  <!-- 第一行：Flame 对比 -->
+  <!-- 左侧视频（SPGS） -->
+  <div class="column is-one-half">
+    <div class="has-text-centered">
+      <video autoplay controls muted loop playsinline
+             style="width: 100%; height: 300px; object-fit: contain; background: #000;">
+        <source src="static/ourvideos/1_Flame_steak(SPGS_ICML2024).mp4" type="video/mp4">
+      </video>
+      <p class="mt-2 has-text-weight-semibold">SuperPointGS</p>
     </div>
+  </div>
+
+  <!-- 右侧视频（Ours） -->
+  <div class="column is-one-half">
+    <div class="has-text-centered">
+      <video autoplay controls muted loop playsinline
+             style="width: 100%; height: 300px; object-fit: contain; background: #000;">
+        <source src="static/ourvideos/1_Flame_steak(Ours).mp4" type="video/mp4">
+      </video>
+      <p class="mt-2 has-text-weight-semibold">Ours</p>
+    </div>
+  </div>
+</div>
+<div class="columns is-centered is-variable is-4" style="margin-top: 2rem;">
+  <!-- 第二行：Sear 对比 -->
+  <div class="column is-one-half">
+    <div class="has-text-centered">
+      <video autoplay controls muted loop playsinline style="width: 100%;">
+        <source src="static/ourvideos/2_Sear_steak(4DGS_CVPR2024).mp4" type="video/mp4">
+      </video>
+      <p class="mt-2 has-text-weight-semibold">4DGaussian</p>
+    </div>
+  </div>
+  <div class="column is-one-half">
+    <div class="has-text-centered">
+      <video autoplay controls muted loop playsinline style="width: 100%;">
+        <source src="static/ourvideos/2_Sear_steak(Ours).mp4" type="video/mp4">
+      </video>
+      <p class="mt-2 has-text-weight-semibold">Ours</p>
+    </div>
+  </div>
+</div>
+
+
   </div>
 </div>
 
