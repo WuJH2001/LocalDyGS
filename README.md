@@ -8,4 +8,4 @@
 This repository is the official implementation of **"LocalDyGS : Multi-view Global Dynamic Scene Modeling through Adaptive Local Feature Decoupling"**. 
 In this paper, we propose a method that is capable of modeling not only fine-scale motion but also large-scale motion effectively.
 
-The code will be released no later than August.
+The source code and the processing scripts for the VRU dataset will be released by August at the latest. 
