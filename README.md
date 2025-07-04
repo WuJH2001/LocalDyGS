@@ -1,5 +1,5 @@
 # LocalDyGS
-### [Project page](https://wujh2001.github.io/LocalDyGS/) | [Paper](https://arxiv.org/pdf/2507.02363)
+### [Project page](https://wujh2001.github.io/LocalDyGS/) | [Paper](https://arxiv.org/pdf/2507.02363) | [VRU Dataset](https://huggingface.co/datasets/BestWJH/VRU_Basketball)
 > **LocalDyGS : Multi-view Global Dynamic Scene Modeling through Adaptive Local Feature Decoupling**,            
 > Jiahao Wu, Rui Peng, Jianbo Jiao, Jiayu Yang, Luyang Tang, Kaiqiang Xiong, Jie Liang, Jinbo Yan, Runling Liu, Ronggang Wang  
 > **Peking University, Pengcheng Lab, University of Birmingham**  
