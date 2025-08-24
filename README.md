@@ -90,6 +90,8 @@ The dataset will end-up like this ( As same as 3DGStream):
 |---...      
 ```
 
+In this part, there are still some additional data processing tasks to be done, and the data processing code will be open-sourced.
+
 
 ## Training
 
