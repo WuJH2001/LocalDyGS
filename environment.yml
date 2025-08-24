@@ -1,0 +1,31 @@
+name: LocalDyGS
+channels:
+  - pyg
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - cudatoolkit=11.8
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - torchaudio=2.2.0
+  - tqdm
+  - plyfile=0.8.1
+  - matplotlib
+  - colorama
+  - pip:
+      - mmcv==1.6.0
+      - einops
+      - wandb
+      - lpips
+      - laspy
+      - torchmetrics
+      - jaxtyping
+      - torch_scatter==2.1.2 -f https://data.pyg.org/whl/torch-2.2.0+cu118.html
+      - pytorch-msssim
+      - imageio[ffmpeg]
+      - submodules/diff-gaussian-rasterization
+      - submodules/simple-knn
