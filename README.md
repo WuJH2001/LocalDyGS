@@ -69,7 +69,7 @@ bash colmap.sh Your/Path/To/cut_roasted_beef llff
 
 ### 2.2. For other multi-view dynamic scenes (e.g., MeetRoom, VRU dataset):
 
-Please follow the step-by-step instructions in [this script](scripts/multiview_data_process) to process your data.  The processed camera poses for MeetRoom are available [here](https://1drv.ms/f/c/80737028a7921b70/EneGBEJSEEdFtnisrn8rP40BYMxn0sSR8m7fsgRoahCAhg?e=C7SVar). 
+Please follow the step-by-step instructions in [this script](https://github.com/WuJH2001/swift4d/tree/main/scripts/multiview_data_process) to process your data.  The processed camera poses for MeetRoom are available [here](https://1drv.ms/f/c/80737028a7921b70/EneGBEJSEEdFtnisrn8rP40BYMxn0sSR8m7fsgRoahCAhg?e=C7SVar). 
 If you use the camera parameters we provided, you can skip steps 1 and 2 and go directly to step 3.
 
 The dataset will end-up like this ( As same as 3DGStream):
