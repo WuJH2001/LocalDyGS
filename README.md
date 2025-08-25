@@ -93,7 +93,7 @@ The dataset will end-up like this ( As same as 3DGStream):
 In this part, there are still some additional data processing tasks to be done, and the data processing code will be open-sourced.
 
 
-## Training
+## 3. Training
 
 For training dynerf scenes such as `cut_roasted_beef`, run
 ```python
@@ -111,7 +111,7 @@ The training difference between N3DV and VRU lies in the number of frames. N3DV 
 
 
 
-## Rendering
+## 4. Rendering
 
 Run the following script to render the images.
 
@@ -123,7 +123,7 @@ or
 python render.py  --model_path  output/VRU/basketball_gz_0_20 --frames_start_end 0 20 --skip_train --skip_video --iteration 30000 --configs arguments/vrugz/basketball.py
 ```
 
-## Evaluation
+## 5. Evaluation
 
 You can just run the following script to evaluate the model.
 
@@ -132,7 +132,7 @@ python metrics.py --model_path output/dynerf/cut_roasted_beef/
 ```
 
 
-## Contributions
+## 6. Contributions
 
 **This project is still under development. Please feel free to raise issues or submit pull requests to contribute to our codebase. Thanks to previous excellent works.** If you find our repository helpful, we would be very happy if you could give us a star.
 
