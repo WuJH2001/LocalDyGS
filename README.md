@@ -89,7 +89,7 @@ Please follow the step-by-step instructions in [this script](https://github.com/
 
 #### Processed Data:
 
-1. The processed camera poses for **MeetRoom** are available [here](https://1drv.ms/f/c/80737028a7921b70/EneGBEJSEEdFtnisrn8rP40BYMxn0sSR8m7fsgRoahCAhg?e=C7SVar).  If you use the camera parameters we provided, **you can skip steps 1 and 2 and go directly to step 3**.
+1. The processed camera poses for **MeetRoom** are available [here](https://1drv.ms/f/c/80737028a7921b70/EneGBEJSEEdFtnisrn8rP40BYMxn0sSR8m7fsgRoahCAhg?e=C7SVar).  If you use the camera parameters we provided, **you can skip steps 2 and go directly to step 3**.
 
 2. For the **VRU dataset**, we provide a portion of the processed data here, which includes the camera pose of the first frame (frame 0) and the point clouds of all frames:
 [Basketball\_gz\_cameras\_pointcloud.zip](https://www.dropbox.com/scl/fi/ujq0fm555bgrls8scr8es/Basketball_gz_cameras_pointcloud.zip?rlkey=t5oa47wsoulzc1orgi6ofdpsx&st=7a2xlwu6&dl=0)
