@@ -94,7 +94,7 @@ In this part, there are still some additional data processing tasks to be done, 
 
 For the **VRU dataset**, we provide a portion of the processed data here, which includes the camera pose of the first frame (frame 0) and the point clouds of all frames:
 [Basketball\_gz\_cameras\_pointcloud.zip](https://www.dropbox.com/scl/fi/ujq0fm555bgrls8scr8es/Basketball_gz_cameras_pointcloud.zip?rlkey=t5oa47wsoulzc1orgi6ofdpsx&st=7a2xlwu6&dl=0)
-The additional steps you need to carry out are simply running Step 3 and Step 4 to perform undistortion on the remaining frames and correctly configure the data paths.
+The additional steps you need to carry out are simply running [this script](https://github.com/WuJH2001/swift4d/tree/main/scripts/multiview_data_process) Step 3 and Step 4 to perform undistortion on the remaining frames and correctly configure the data paths.
 
 ## 3. Training
 
