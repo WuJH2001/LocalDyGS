@@ -107,7 +107,7 @@ def training(dataset, hyper, opt, pipe, frames_start_end, testing_iterations, sa
     # first_iter = 0
     tb_writer = prepare_output_and_logger(expname)
 
-    gaussians = GaussianModel( hyper, opt,dataset.feat_dim, 5, dataset.voxel_size, dataset.update_depth, dataset.update_init_factor, dataset.update_hierachy_factor, dataset.use_feat_bank, 
+    gaussians = GaussianModel( hyper, opt,dataset.feat_dim, dataset.n_offsets, dataset.voxel_size, dataset.update_depth, dataset.update_init_factor, dataset.update_hierachy_factor, dataset.use_feat_bank, 
                               dataset.appearance_dim, dataset.ratio, dataset.add_opacity_dist, dataset.add_cov_dist, dataset.add_color_dist)
     
     dataset.model_path = args.model_path
