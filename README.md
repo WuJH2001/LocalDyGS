@@ -146,10 +146,11 @@ python metrics.py --model_path output/dynerf/cut_roasted_beef/
 ## Citation
 
 ```
-@article{wu2025localdygs,
+@inproceedings{wu2025localdygs,
   title={LocalDyGS: Multi-view Global Dynamic Scene Modeling via Adaptive Local Implicit Feature Decoupling},
   author={Wu, Jiahao and Peng, Rui and Jiao, Jianbo and Yang, Jiayu and Tang, Luyang and Xiong, Kaiqiang and Liang, Jie and Yan, Jinbo and Liu, Runling and Wang, Ronggang},
-  journal={arXiv preprint arXiv:2507.02363},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={9519--9529},
   year={2025}
 }
 ```
