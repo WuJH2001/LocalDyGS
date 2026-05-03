@@ -232,6 +232,15 @@ def scene_reconstruction(dataset, hyper, opt,  pipe, testing_iterations, saving_
 
         loss.backward()
 
+        for param in gaussians._FDhash.parameters(): 
+            if param.grad is not None: 
+                if torch.isnan(param.grad).any():
+                    pass
+                param.grad.nan_to_num_()     
+                torch.clamp_(param.grad, -1000, 1000)
+   
+
+        
         for param in gaussians.dynamic_module.parameters(): 
             if param.grad is not None: 
                 param.grad.nan_to_num_()
